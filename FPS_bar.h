@@ -7,12 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-/**
- *  用法：在 appdelegate 入口方法
- *
- *  [[FPS_bar sharedInstance] setHidden:NO];
- *
- */
 @interface FPS_bar : UIWindow
 
 + (instancetype)sharedInstance;
